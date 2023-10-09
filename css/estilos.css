@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#conferencia {
+    height: 600px;
+    background: linear-gradient(#000000a2, #00000028, #000000b2), url("./asset/img/ba1.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: right;
+}
+.logo{
+    width: 100px;
+}
+.tituloNav{
+    display: line;
+}
+.textoConferencia{
+    margin-right: 10%;
+}
+.listaItem{
+    list-style: none;
+    display: inline;
+}
+.contenedorLogoNav{
+    background-color: rgb(53,58,64);
+    font-size: 1,5rem;
+    color: white;
+}
+.linkNav{
+    text-decoration: none;
+}
+.tituloConferencia{
+    margin-right: 10%;
+}
+.quieroSerOrador{
+    border: 1px solid white;
+    text-decoration: none;
+}
+.comprarTickets{
+    background-color: green;
+    text-decoration: none;
+    border: 1px solid green;
+    margin-right: 10%;
+}
+.colorWhite{
+    color: white;
+}
+.colorGris{
+    color: rgb(155,156,160);
+}
+.colorVerde{
+    color: rgb(40,167,69);
+}
+.centrado{
+    text-align: center;
+}
+
+.parrafo{
+    text-align: center;
+}
+.nomApe{
+    text-align: center;
+}
+.colorFondoGradiente{
+    background-image: linear-gradient(to right, #285467, #25546a, #22536c, #1f536f, #1d5271);
+}
+.cards{
+    display: inline-block;
+}
+.honolulu{
+    object-fit: cover;
+}
+.lugarFecha{
+    height: 317px;
+    background-color: rgb(53,58,64);
+    text-align: left;
+}
+.conoceMas{
+    border: 1px solid white;
+    text-decoration: none;
+}
+#formularioOrador{
+    background-position: center;
+}
+#name {
+    width: 245px;
+}
+#apellido{
+    width: 245px;
+}
+.boton{
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    width: 500px;
+}
+.linkNav{
+    color: white;
+}
+.footer{
+    text-align: center;
+}
+.item{
+    font-size: 1,5rem;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
