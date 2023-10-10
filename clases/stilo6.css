@@ -1,0 +1,63 @@
+*{
+    /*resetear algunos valores que vienen por defecto en las etiquetas*/
+    margin:0;
+    padding:0;
+}
+.contenedorLogoNav{
+    background-color: rgb(53,58,64);
+    /*height: 200px;*/
+    font-size: 1.5rem;
+    color:white;
+}
+.colorWhite{
+    color: white;
+}
+
+.colorGris{
+    color: rgb(155,156,160);
+}
+.colorVerde{
+    color: rgb(40,167,69);
+}
+/*
+.fuenteMediana{
+    font-size: 1.5rem;
+}
+
+.altoContenedor{
+    height: 20vh;
+}*/
+p{
+    font-size: 20px;
+    color: blue;
+}
+.cabecera{
+    background-color: #fba70c !important;
+}
+#idHeader{
+    background-color: #640cfb;
+}
+
+.seccionPrincipal{
+    font-size: 40px;
+    /*color: rgb(111,8,8);*/
+    background-image: url("../asset/img/montania.jpg");
+}
+.main{
+    height: 1200px;
+    /*background-color: rgb(255, 0, 255);*/
+    background: linear-gradient(to right, top, #000000, #000000, #000000), url("../asset/img/montania.jpg");
+    /*background-image:url("../asset/img/montania.jpg");*/
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+}
+.piePagina{
+    height: 600px;
+    background-image: url("../asset/img/footer.jpg");
+    background-image: url("../asset/img/montania.jpg");
+    background-size: auto;
+    background-repeat: repeat;
+    background-position:bottom;
+}
